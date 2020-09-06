@@ -1,1 +1,3 @@
 # Credit_Fraud_Prediction
+
+This project focuses on training several models and evaluate how effectively they predict instances of fraud using data based on this dataset from Kaggle (preprocessed data from an undisclosed retail bank). Each row in fraud_data.csv corresponds to a credit card transaction. Features include confidential variables V1 through V28 as well as Amount which is the amount of the transaction. The target is stored in the class column, where a value of 1 corresponds to an instance of fraud and 0 corresponds to an instance of not fraud. The goal of the project is to compare various ML methods to find the best model and tuning for the dataset.
